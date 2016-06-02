@@ -16,3 +16,15 @@ C:\Schule\c#\Klassenarbeitgenerator\Klassenarbeitgenerator\bin\Debug\Data\Klasse
 C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Klassenarbeitgenerator.exe.config
 C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.exe
 C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.pdb
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Data\Klassenarbeiten.mdf
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Data\Klassenarbeiten_log.ldf
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Klassenarbeitgenerator.exe
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Klassenarbeitgenerator.pdb
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.csprojResolveAssemblyReference.cache
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\MainWindow.g.cs
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\App.g.cs
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator_Content.g.cs
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator_MarkupCompile.cache
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator_MarkupCompile.lref
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\MainWindow.baml
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.g.resources
