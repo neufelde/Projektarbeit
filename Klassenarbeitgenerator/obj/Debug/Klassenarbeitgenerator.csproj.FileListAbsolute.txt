@@ -13,3 +13,6 @@ C:\Schule\c#\Klassenarbeitgenerator\Klassenarbeitgenerator\obj\Debug\Klassenarbe
 C:\Schule\c#\Klassenarbeitgenerator\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.pdb
 C:\Schule\c#\Klassenarbeitgenerator\Klassenarbeitgenerator\bin\Debug\Data\Klassenarbeiten.mdf
 C:\Schule\c#\Klassenarbeitgenerator\Klassenarbeitgenerator\bin\Debug\Data\Klassenarbeiten_log.ldf
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Klassenarbeitgenerator.exe.config
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.exe
+C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.pdb
