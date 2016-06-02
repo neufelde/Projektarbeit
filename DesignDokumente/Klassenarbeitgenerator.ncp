@@ -7,7 +7,7 @@
       <Entity type="Class">
         <Name>Aufgabe</Name>
         <Access>Public</Access>
-        <Location left="351" top="223" />
+        <Location left="173" top="57" />
         <Size width="348" height="230" />
         <Collapsed>False</Collapsed>
         <Member type="Property">public string Fach { get; private set; }</Member>
@@ -24,16 +24,107 @@
       <Entity type="Class">
         <Name>Klassenarbeit</Name>
         <Access>Public</Access>
-        <Location left="787" top="223" />
+        <Location left="657" top="57" />
         <Size width="290" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Property">public string LehrerName { get; set; }</Member>
         <Member type="Property">public string KlassenName { get; set; }</Member>
         <Member type="Property">public int Schwierigkeit { get; set; }</Member>
         <Member type="Property">public List&lt;Aufgabe&gt; Aufgaben { get; set; }</Member>
+        <Member type="Property">public int GesamtPunktzahl { get; set; }</Member>
+        <Member type="Constructor">public Klassenarbeit(string lehrer, string klasse, int schwierigkeit, List&lt;Aufgabe&gt; aufgaben)</Member>
+        <Member type="Method">public void PunkteVerteilen()</Member>
+        <Member type="Method">public void ToPDF()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PDFCreator</Name>
+        <Access>Public</Access>
+        <Location left="1120" top="377" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>Static</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SQLHandler</Name>
+        <Access>Public</Access>
+        <Location left="773" top="377" />
+        <Size width="318" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private static Object syncObject</Member>
+        <Member type="Field">private static SqlConnection connection</Member>
+        <Member type="Method">public static void WriteAufgabe(Aufgabe a)</Member>
+        <Member type="Method">public static Aufgabe ReadAufgabe()</Member>
+        <Member type="Method">public static DataTable ReadFach()</Member>
+        <Member type="Method">private static DataTable read(DataTable dt, string sqlCommand)</Member>
+        <Modifier>Static</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ViewModelBase</Name>
+        <Access>Public</Access>
+        <Location left="528" top="377" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">protected void OnPropertyChanged(string propertyName)</Member>
+        <Member type="Event">public event PropertyChangedEventHandler PropertyChanged</Member>
+        <Member type="Property">public MainWindow MainWindow { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MainViewModel</Name>
+        <Access>Public</Access>
+        <Location left="10" top="674" />
+        <Size width="361" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public AufgabenViewModel AufgabenViewModel { get; set; }</Member>
+        <Member type="Property">public KlassenarbeitViewModel KlassenarbeitViewModel { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AufgabenViewModel</Name>
+        <Access>Public</Access>
+        <Location left="438" top="674" />
+        <Size width="324" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public ICommand AufgabeAnlegenCommand { get; set; }</Member>
+        <Member type="Property">public Aufgabe Aufgabe { get; set; }</Member>
+        <Member type="Method">public void AufgabeAnlegen()</Member>
+        <Member type="Method">private bool VerifyDatabaseEntry()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>KlassenarbeitViewModel</Name>
+        <Access>Public</Access>
+        <Location left="811" top="674" />
+        <Size width="330" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public ICommand KlassenarbeitGenerierenCommand { get; set; }</Member>
+        <Member type="Property">public Klassenarbeit Klassenarbeit { get; set; }</Member>
+        <Member type="Method">public void Klassenarbeitgenerieren()</Member>
         <Modifier>None</Modifier>
       </Entity>
     </Entities>
-    <Relationships />
+    <Relationships>
+      <Relationship type="Generalization" first="5" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="6" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>609</X>
+          <Y>624</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="7" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>609</X>
+          <Y>618</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
   </ProjectItem>
 </Project>
