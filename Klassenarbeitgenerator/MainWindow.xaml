@@ -14,7 +14,7 @@
             <sys:Int32>3</sys:Int32>
             <sys:Int32>4</sys:Int32>
             <sys:Int32>5</sys:Int32>
-        </x:Array>        
+        </x:Array>
     </Window.Resources>
     <Grid>
         <TabControl>
@@ -30,21 +30,24 @@
             </TabItem>
             <TabItem Name="AufgabeAnlegenTab" Header="Neue Aufgabe anlegen" FontWeight="Bold" Visibility="Collapsed">
                 <Grid>
-                    <Label Content="Fach" Margin="30 5 0 0" FontWeight="Bold" FontSize="14"/>
+                    <Label Content="Aufgabenname" Margin="30 5 0 0" FontWeight="Bold" FontSize="14"/>
+                    <TextBox Name="Aufgabenname" HorizontalAlignment="Left" 
+                              VerticalAlignment ="Top" Height="30" Width="150" Margin="30 40 0 0"/>
+                    <Label Content="Fach" Margin="210 5 0 0" FontWeight="Bold" FontSize="14"/>
                     <ComboBox Name="FachAnlegenCombobox" IsEditable="True" Width="150" Height="30" HorizontalAlignment="Left" 
-                              VerticalAlignment ="Top" Margin="30 40 0 0" ItemsSource="{Binding}"/>
-                    <Label Content="Themengebiet" Margin="200 5 0 0" FontWeight="Bold" FontSize="14"/>
+                              VerticalAlignment ="Top" Margin="210 40 0 0" ItemsSource="{Binding}"/>
+                    <Label Content="Themengebiet" Margin="380 5 0 0" FontWeight="Bold" FontSize="14"/>
                     <ComboBox Name="ThemaAnlegenCombobox" IsEditable="True" Width="150" Height="30" HorizontalAlignment="Left" 
-                              VerticalAlignment ="Top" Margin="200 40 0 0" ItemsSource="{Binding}"/>
-                    <Label Content="Schwierigkeit" Margin="370 5 0 0 " FontWeight="Bold" FontSize="14"/>
+                              VerticalAlignment ="Top" Margin="380 40 0 0" ItemsSource="{Binding}"/>
+                    <Label Content="Schwierigkeit" Margin="550 5 0 0 " FontWeight="Bold" FontSize="14"/>
                     <ComboBox Name="SchwierigkeitAnlegenCombobox" IsEditable="False" Width="150" Height="30" HorizontalAlignment="Left"
-                              VerticalAlignment="Top" Margin="370 40 0 0" SelectedIndex="0" ItemsSource="{StaticResource SchwierigkeitsStufen}"/>
+                              VerticalAlignment="Top" Margin="550 40 0 0" SelectedIndex="0" ItemsSource="{StaticResource SchwierigkeitsStufen}"/>
                     <Label Content="Aufgabentext" Margin="30 100 0 0" FontWeight="Bold" FontSize="14"/>
                     <TextBox Name="AufgabenTextAnlegenTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" 
                              Height="200" Width="400" Margin="30 130 0 0"/>
                     <Label Content="Grafik einfügen (optional)" Margin="30 350 0 0" FontWeight="Bold" FontSize="14"/>
                     <TextBox Name="GrafikpfadTextBox" Margin="70 380 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"
-                             Height="30" Width="Auto" MinWidth="180" MaxWidth="400" Text="{Binding Path=NeueAufgabe.ImagePath, Mode=OneWayToSource}"/>
+                             Height="30" Width="Auto" MinWidth="180" MaxWidth="400"/>
                     <Button Name="btn_GrafikAuswaehlen" Margin="30 380 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"
                             Height="30" Width="30" Click="btn_GrafikAuswaehlen_Click">
                         <Image Source="/Resources/OpenFileIcon.bmp"/>
@@ -56,7 +59,7 @@
                             FontWeight="Bold" FontSize="14"
                             Click="btn_KlassenarbeitGenerieren_Click">
                         <TextBlock Text="Zu 'Klassenarbeit generieren' wechseln" TextWrapping="Wrap" TextAlignment="Center"/>
-                    </Button>                    
+                    </Button>
                 </Grid>
             </TabItem>
             <TabItem Name="KlassenarbeitGenerierenTab" Header="Klassenarbeit generieren" FontWeight="Bold" Visibility="Collapsed">
@@ -82,6 +85,12 @@
                     <Label Content="Themengebiete" Margin="200 100 0 0" FontWeight="Bold" FontSize="14"/>
                     <ListBox Name="ThemengebieteListBox" Width="150" Height="180" HorizontalAlignment="Left" VerticalAlignment="Top"
                              Margin="200 130 0 0" ItemsSource="{Binding}"/>
+                    <Label Content="Aufgaben" Margin="370 100 0 0" FontWeight="Bold" FontSize="14"/>
+                    <ListBox Name="AufgabenBox" Width="150" Height="180" HorizontalAlignment="Left" VerticalAlignment="Top"
+                             Margin="370 130 0 0" ItemsSource="{Binding}"/>
+                    <Label Content="Ausgewählte Aufgaben" Margin="0 100 30 0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Right"/>
+                    <ListBox Name="AusgewaehlteAufgabenBox" Width="150" Height="180" HorizontalAlignment="Right" VerticalAlignment="Top"
+                             Margin="0 130 40 0" ItemsSource="{Binding}"/>
                     <Label Content="(Strg-Click für Mehrfachauswahl)" Margin="195 305 0 0" FontSize="9" FontWeight="Light"/>
                     <Button Name="btn_KlassenarbeitGenerieren" Margin="30 450 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"
                             Height="60" Width="180" FontWeight="Bold" FontSize="14" Content="Klassenarbeit generieren"
@@ -89,10 +98,11 @@
                     <Button Name="btn_ZuNeueAufgabeAnlegen" Height="60" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550 450 0 0" 
                             FontWeight="Bold" FontSize="14"
                             Click="btn_NeueAufgabeAnlegen_Click">
-                            <TextBlock Text="Zu 'Neue Aufgabe anlegen' wechseln" TextWrapping="Wrap" TextAlignment="Center"/>                        
+                        <TextBlock Text="Zu 'Neue Aufgabe anlegen' wechseln" TextWrapping="Wrap" TextAlignment="Center"/>
                     </Button>
                 </Grid>
             </TabItem>
+            <Label x:Name="label" Content="Label" Height="100" Width="100"/>
         </TabControl>
     </Grid>
 </Window>

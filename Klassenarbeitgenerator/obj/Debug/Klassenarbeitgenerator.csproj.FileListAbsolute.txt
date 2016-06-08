@@ -28,3 +28,6 @@ C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Deb
 C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator_MarkupCompile.lref
 C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\MainWindow.baml
 C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.g.resources
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Klassenarbeitgenerator.exe.config
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.exe
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.pdb
