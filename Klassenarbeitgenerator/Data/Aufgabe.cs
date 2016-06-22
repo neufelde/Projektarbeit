@@ -44,7 +44,7 @@ namespace Klassenarbeitgenerator.Data
 
         public void AufgabeErstellen()
         {
-
+            sqlCommander.AddTaskToDatabase(name, schwierigkeitsgrad, thema, fach, aufgabentext, erstelldatum, bild);
         }
     }
 }

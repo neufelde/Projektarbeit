@@ -84,6 +84,9 @@
     </Compile>
     <Compile Include="Commands\AufgabeAnlegenCommand.cs" />
     <Compile Include="Commands\KlassenarbeitGenerierenCommand.cs" />
+    <Compile Include="Data\Aufgabe.cs" />
+    <Compile Include="Data\Klassenarbeit.cs" />
+    <Compile Include="Data\SQLCommands.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

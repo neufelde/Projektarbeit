@@ -73,6 +73,7 @@
                     <Label Content="Datum" Margin="370 5 0 0 " FontWeight="Bold" FontSize="14"/>
                     <DatePicker Name="DatePicker" Text="Datum auswählen" Width="Auto" Height="30" HorizontalAlignment="Left"
                               VerticalAlignment="Top" Margin="370 40 0 0"/>
+                    <CheckBox Name="AutomatischePunkteverteilungCheckBox" />
                     <Label Content="Fach" Margin="30 100 0 0" FontWeight="Bold" FontSize="14"/>
                     <ComboBox Name="FachAuswaehlenCombobox" Width="150" Height="30" HorizontalAlignment="Left" 
                               VerticalAlignment ="Top" Margin="30 130 0 0" ItemsSource="{Binding}"/>
@@ -88,9 +89,12 @@
                     <Label Content="Aufgaben" Margin="370 100 0 0" FontWeight="Bold" FontSize="14"/>
                     <ListBox Name="AufgabenBox" Width="150" Height="180" HorizontalAlignment="Left" VerticalAlignment="Top"
                              Margin="370 130 0 0" ItemsSource="{Binding}"/>
-                    <Label Content="Ausgewählte Aufgaben" Margin="0 100 30 0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Right"/>
+                    <Label Content="Ausgewählte Aufgaben" Margin="0 100 90 0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Right"/>
                     <ListBox Name="AusgewaehlteAufgabenBox" Width="150" Height="180" HorizontalAlignment="Right" VerticalAlignment="Top"
-                             Margin="0 130 40 0" ItemsSource="{Binding}"/>
+                             Margin="0 130 95 0" ItemsSource="{Binding}"/>
+                    <Label Content="Punkte" Margin="0 100 28 0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Right"/>
+                    <ListBox Name="Punkte" Width="50" Height="50" HorizontalAlignment="Right" VerticalAlignment="Top"
+                             Margin="0 130 30 0" ItemsSource="{Binding}"/>
                     <Label Content="(Strg-Click für Mehrfachauswahl)" Margin="195 305 0 0" FontSize="9" FontWeight="Light"/>
                     <Button Name="btn_KlassenarbeitGenerieren" Margin="30 450 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"
                             Height="60" Width="180" FontWeight="Bold" FontSize="14" Content="Klassenarbeit generieren"

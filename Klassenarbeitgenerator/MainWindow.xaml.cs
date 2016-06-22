@@ -15,7 +15,9 @@
     using System.Windows.Media.Imaging;
     using System.Windows.Navigation;
     using System.Windows.Shapes;
+    
 
+    
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -33,6 +35,7 @@
             this.KlassenarbeitGenerierenTab.Visibility = Visibility.Collapsed;
             this.AufgabeAnlegenTab.Visibility = Visibility.Visible;
             this.AufgabeAnlegenTab.Focus();
+
         }
 
         private void btn_KlassenarbeitGenerieren_Click(object sender, RoutedEventArgs e)

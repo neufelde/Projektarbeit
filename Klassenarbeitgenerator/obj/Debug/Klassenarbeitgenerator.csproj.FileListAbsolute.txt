@@ -31,3 +31,14 @@ C:\Schule\c#\Klassenarbeitgenerator\Projektarbeit\Klassenarbeitgenerator\obj\Deb
 C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Klassenarbeitgenerator.exe.config
 C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.exe
 C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.pdb
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Data\Klassenarbeiten.mdf
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Data\Klassenarbeiten_log.ldf
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Klassenarbeitgenerator.exe
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\bin\Debug\Klassenarbeitgenerator.pdb
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\MainWindow.g.cs
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\App.g.cs
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator_Content.g.cs
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator_MarkupCompile.cache
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator_MarkupCompile.lref
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\MainWindow.baml
+C:\Users\dibach\Documents\GitHub\Projektarbeit\Klassenarbeitgenerator\obj\Debug\Klassenarbeitgenerator.g.resources

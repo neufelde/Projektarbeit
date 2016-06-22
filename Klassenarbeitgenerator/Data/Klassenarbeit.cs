@@ -8,5 +8,12 @@ namespace Klassenarbeitgenerator.Data
 {
     class Klassenarbeit
     {
+
+        public Klassenarbeit()
+        {
+
+        }
+
+
     }
 }
